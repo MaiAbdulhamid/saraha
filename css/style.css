@@ -1,0 +1,322 @@
+@import url(font.css);
+/*Start main rules*/
+html{font-size: 15px;}
+body{
+    direction: rtl;
+    word-break: break-all;
+    background-color: #f5f8fa;
+    font-family: droid;
+    text-align: right;
+}
+* {
+    box-sizing: border-box;
+}
+hr {
+    border: 1px solid #e4e4e4;
+}
+.letter-case{text-transform: uppercase;}
+.gray{color: #9da9b0;}
+.green{color: #10bbb3;}
+.black{color: #1e3948;}
+.bold{font-weight: bold;}
+.small{font-size: 13px;}
+.btn-default{
+    background-color: #fff;
+    color: #10bbb3;
+    padding: 1px 4px;
+    border-radius: 5px;
+    border-color: #10bbb3;
+}
+.btn-default:hover,
+.btn-default:focus{
+    background-color: #10bbb3;
+    color: #fff;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+a:focus, a:hover{
+    color: #fff;
+    text-decoration: none
+}
+/*Bootstrap arabic settings*/
+.pull-right{float: left;}
+.pull-left{float: right;}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9 {
+    float: right;
+}    
+/*End main rules*/
+
+/*Start home-nav page*/
+.navbar-default{
+    color: #fff;
+    background-color: #10bbb3;
+    border-radius: 0px;
+}
+.navbar-default .navbar-nav>li>a{
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a:focus, 
+.navbar-default .navbar-nav>li>a:hover{
+    color: #fff;
+}
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:focus, 
+.navbar-default .navbar-nav>.active>a:hover{
+    color: #fff;
+    background-color: transparent;
+}
+.navbar-header{
+    float: left;
+}
+.navbar-default .navbar-brand{
+    float: right;
+    margin-right: -15px;
+    color: #fff;
+    font-weight: bold;
+}
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:hover{
+    color: #fff;
+}
+@media (min-width: 768px)
+{
+    .navbar-right {
+    float: left !important;
+    margin-left: -15px;
+    }
+    .navbar-nav>li {
+        float: right;
+    }
+}
+
+.navbar-default .navbar-brand .logo img{
+    margin-top: -10px;
+    margin-left: 5px;
+}
+.navbar-inverse .navbar-toggle {
+    border-color: #13b1a2;
+}
+.navbar-toggle {
+    position: relative;
+    float: left;
+    margin-left: 15px;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.navbar-default .navbar-toggle:hover{
+    color: #13b1a2;
+}
+.navbar-collapse {
+    max-height: inherit;
+}
+.navbar-collapse.in{
+    overflow: hidden !important;
+}
+/******************************************/
+
+/*End home-nav Page*/
+
+/*Start Message page*/
+.profile{
+    background-color: #fff;
+    border: 1px solid #d3e0e9;
+    overflow: hidden;
+    padding: 10px
+}
+.pro-pic img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+.profile .name i{
+    margin-left: 3px;
+}
+.profile .links{
+    margin-bottom: 7px;
+}
+.profile .links a:hover,
+.profile .links a:focus{
+   color: #10bbb3; 
+}
+.profile .btns{
+    margin-bottom: 10px;
+}
+.profile .btns i{
+    margin-left: 5px;
+}
+.msg-content h3{
+    margin-top: 0px;
+    font-size: x-large
+}
+.msg-content .close{
+  padding-bottom: 5px;
+}
+.msg-content .content{
+    white-space: pre-wrap;
+    word-wrap: break-word; 
+    white-space: pre-line; 
+    overflow: hidden; 
+    display: block;
+}
+.msg-content .text-muted a{
+    color: #777;
+}
+.msg-content .list-group-item:first-child{
+    border-bottom: 0px;
+    border-top: 1px solid #d3e0e9;
+}
+.msg-content .list-group-item{
+    border-top: 0px;
+    margin-top: 1px;
+    border-color: #d3e0e9;
+}
+.media-list-stream .media.list-group-item{
+    margin-top: 0px;
+}
+.p-a{
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+/*End Message Page*/
+/*Start saraha page*/
+.p-t-md {
+    padding-top: 30px !important;
+}
+img[data-action="zoom"] {
+    cursor: pointer;
+    cursor: -moz-zoom-in;
+}
+.panel-profile-img {
+    max-width: 100px;
+    margin-top: -70px;
+    margin-bottom: 5px;
+    border-radius: 100%;
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.m-b-md {
+    margin-bottom: 30px !important;
+}
+.panel-default {
+    border-color: #d3e0e9;
+}
+.panel {
+    margin-bottom: 22px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.panel-body {
+    padding: 15px;
+}
+.panel-profile .panel-title {
+    margin-bottom: 5px;
+}
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: inherit;
+}
+.text-inherit,
+.text-inherit:hover,
+.text-inherit:focus {
+    color: inherit;
+    text-decoration: inherit;
+}
+input:not([type=checkbox]):not([type=radio]) {
+    -webkit-appearance: none;
+}
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+.textarea-container {
+    display: table;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 1px solid #10bbb3;
+    padding: 5px;
+    width: 70%;
+    background-color: rgba(12,200,201,.02);
+}
+.remove-border, 
+.remove-border:focus, 
+.remove-border:hover,
+.remove-border:active {
+    border: none;
+    box-shadow: none;
+}
+textarea {
+    resize: none;
+}
+.btn-primary-outline {
+    color: #0da39c;
+    background-color: transparent;
+    border-color: #10bbb3;
+}
+.btn-primary-outline:focus, 
+.btn-primary-outline.focus, 
+.btn-primary-outline:hover, 
+.btn-primary-outline:active, 
+.btn-primary-outline.active, 
+.open>.dropdown-toggle.btn-primary-outline {
+    color: #fff;
+    background-color: #10bbb3;
+    border-color: #10bbb3;
+    box-shadow: none;
+}
+/*End sarahah page*/
+/*Start options page*/
+.options ul li{
+    margin-bottom: 15px;
+}
+.options ul li i{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.options a{
+    color: #10bbb3;
+}
+.options a:hover,
+.options a:focus{
+    color: #10bbb3;
+}
+.list-unstyled {
+    padding-right: 0;
+    list-style: none;
+}
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 11px;
+}
+/*End options page*/
+/*Start about page*/
+dd {
+    margin-right: 0;
+}
+dt, dd {
+    line-height: 1.6;
+}
+/*End about page*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
